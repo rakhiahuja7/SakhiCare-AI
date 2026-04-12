@@ -22,7 +22,3 @@ SakhiCare AI is a privacy-first women’s health companion that uses NLP and mac
 ## Run Locally
 ```bash
 streamlit run app.py
-
-Impact
-
-Helps women privately understand sensitive symptoms and decide when self-care is enough or when medical consultation is needed.
