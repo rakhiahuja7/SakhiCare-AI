@@ -16,6 +16,28 @@ st.markdown(
     <style>
     .stApp {
         background-color: #fff0f5;
+        color: #2d1b3d;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #6a1b9a !important;
+        font-weight: 700;
+    }
+
+    p, label, div, span {
+        color: #2d1b3d !important;
+    }
+
+    .stTextArea textarea {
+        background-color: #1e1e2f;
+        color: white;
+        border-radius: 12px;
+    }
+
+    .stNumberInput input {
+        background-color: #1e1e2f;
+        color: white;
+        border-radius: 8px;
     }
     </style>
     """,
