@@ -1,24 +1,43 @@
 # 🌸 SakhiCare AI
 
-SakhiCare AI is a privacy-first women’s health companion that uses NLP and machine learning to analyze symptoms such as irregular periods, white discharge, PCOS signs, hormonal acne, and pregnancy-related concerns.
+AI-powered women’s wellness assistant using:
+- NLP symptom analysis
+- personalized triage
+- CNN-based face/neck hormonal skin sign detection
+- Streamlit dashboard
 
-## Features
-- AI symptom classification
-- Personalized urgency guidance
-- Self-care recommendations
-- History tracking
-- Symptom analytics dashboard
-- Streamlit UI
+## 🚀 Features
+- PCOS / infection / pregnancy symptom NLP
+- cycle delay + pain personalization
+- image upload for acne / redness / dark patch
+- friend-style AI guidance
+- history analytics
+- MobileNetV2 CNN
 
-## Tech Stack
-- Python
-- Pandas
-- Scikit-learn
-- TF-IDF
-- Logistic Regression
-- Streamlit
-- Plotly
-
-## Run Locally
+## 🛠️ Run
 ```bash
+python train_model.py
+python train_image_model.py
+streamlit run app.py
+
+# 🌸 SakhiCare AI
+
+AI-powered women’s wellness assistant using:
+- NLP symptom analysis
+- personalized triage
+- CNN-based face/neck hormonal skin sign detection
+- Streamlit dashboard
+
+## 🚀 Features
+- PCOS / infection / pregnancy symptom NLP
+- cycle delay + pain personalization
+- image upload for acne / redness / dark patch
+- friend-style AI guidance
+- history analytics
+- MobileNetV2 CNN
+
+## 🛠️ Run
+```bash
+python train_model.py
+python train_image_model.py
 streamlit run app.py
